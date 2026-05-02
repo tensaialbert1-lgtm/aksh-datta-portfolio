@@ -202,3 +202,27 @@ nav a.active {
     color: #38bdf8;
     border-bottom: 2px solid #38bdf8;
 }
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    transition: 0.3s;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact-btn:hover {
+    background: #38bdf8;
+    color: black;
+    transform: scale(1.05);
+}
